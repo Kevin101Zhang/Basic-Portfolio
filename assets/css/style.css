@@ -1,23 +1,28 @@
 /*Page Layout*/
 body{
 font-family:sans-serif;
-background-color: #cccccc;
+/*background-color: #cccccc; */
 color: #777777;
 margin-top: 0;
 margin-bottom: 0;
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+/*background-image: url(https://data.whicdn.com/images/285235079/original.gif);*/
+/*background-image: url(https://i.gifer.com/cFv.gif);*/
+/*background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/V3GIUd5/abstract-shooting-star-animation-loop-blue_bwj6tiab__F0000.gif);*/
+background-image: url(https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif);
+background-position: center;
+background-size: cover;
 
 }
 
 header{
     background-color:#ffffff;
     border-bottom: 4px solid;
-    border-color: #dddddd;
+    border-color: #cccccc;
     margin: 0px;
     padding:0px;
-    width: 100%;
     block-size: 75px;
-    font-family:'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 
@@ -41,9 +46,10 @@ li{
     border-color: #dddddd;
     clear: both;
     padding:30px;
-    position: relative;
     width: 960px;
     left:19.1%;
+    right: 19.1;
+    position: absolute;
 
 }
 
@@ -57,25 +63,23 @@ h2{
 }
 
 
-img{
-    float: left;
-}
-
 footer{
-    
+    position: fixed;
+    bottom: 0%;
     background-color: #666666;
-    border-top: 11px solid;
+    border-top: 10px solid;
     border-top-color: #4aaaa5;
     width: 100%;
-    block-size: 60px;
 }
 .name{
     float: left;
-    color:#ffffff;
+    color: #ffffff;
     background-color: #4aaaa5;
     margin: 0px 0px 0px 19%;
-    padding: 1.5% 2% 1.5% 2%;
-    height: 25px;
+    padding: 0 2% 0 2%;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
 }
 a {
 color: #cccccc;
@@ -84,6 +88,7 @@ text-decoration: none;
 }
 a:hover {
     color:#4aaaa5;
+
 }
 ul{
     margin: 0 18% 0 0;
@@ -99,6 +104,21 @@ ul{
     font-size: 10px;
     color: #cccccc;
     justify-content: center;
+}
+div {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+/*About Me | Index Specifics*/
+.paragraph{
+    font-size: 18px;
+}
+
+
+img{
+    float: left;
+    margin: 0% 2% 1% 0%;
 }
 
 /*Contact Page Specfics*/
@@ -121,6 +141,7 @@ textarea{
     padding:1% 3% 1% 3%;
 
 }
+h1{ height: 100%}
 
 /*Portfolio Page Specifics*/
 
@@ -140,5 +161,4 @@ textarea{
 
 .portfolioPic{
     margin: 1% 4% 3% 0%;
-
 }
